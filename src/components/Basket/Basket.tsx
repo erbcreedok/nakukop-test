@@ -63,7 +63,7 @@ const Basket = (): JSX.Element => {
           ))}
           <Spacer />
         </SimpleGrid>
-        {totalPrice && (
+        {!!totalPrice && (
           <Flex
             px={2}
             py={4}
